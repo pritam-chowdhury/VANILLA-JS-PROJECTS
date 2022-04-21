@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.question-box{
+    border: 1px solid;
+    width: 80%;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+.hide {
+    display: none;
+}
