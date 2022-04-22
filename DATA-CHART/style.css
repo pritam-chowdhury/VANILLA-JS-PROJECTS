@@ -1,0 +1,21 @@
+.container{
+    height: 300px;
+    width: 600px;
+    border-left:3px solid;
+    border-bottom:3px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding-left: 10px;
+}
+.child-box{
+    margin-right: 30px;
+    width: 30px;
+    border: 2px solid;
+    text-align: center;
+    position: relative;
+}
+.text-node{
+    position: absolute;
+    bottom: -25px;
+}
