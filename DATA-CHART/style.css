@@ -1,12 +1,10 @@
 .container{
     height: 300px;
     width: 600px;
-    border-left:3px solid;
-    border-bottom:3px solid;
     display: flex;
     flex-direction: row;
     align-items: end;
-    padding-left: 10px;
+    margin: 0 auto;
 }
 .child-box{
     margin-right: 30px;
@@ -18,4 +16,20 @@
 .text-node{
     position: absolute;
     bottom: -25px;
+}
+
+.histo-chart{
+    border-left:3px solid;
+    border-bottom:3px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding-left: 10px;
+}
+.ranges{
+    display: flex;
+    flex-direction: column-reverse;
+    height: inherit;
+    justify-content: space-between;
+    margin-right: 10px;
 }

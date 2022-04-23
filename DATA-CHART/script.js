@@ -12,7 +12,7 @@ function calculateFRequncy(){
 }
 
 function drawChart(){
-    const parent = document.querySelector(".container");
+    const parent = document.querySelector(".histo-chart");
     Object.keys(formattedData).forEach((item)=>{
         const childBox = document.createElement("div");
         const textNode = document.createElement("span");
