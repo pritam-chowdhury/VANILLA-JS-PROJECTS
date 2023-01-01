@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <span class="header">Countdown Timer</span>
+      <div class="countdown__inputs">
+        <div class="input_boxes">
+          <span class="input_boxes_label">Hours</span>
+          <input
+            type="number"
+            placeholder="00"
+            maxlength="2"
+            class="input__value hour_box"
+          />
+        </div>
+        <div class="input_boxes">
+          <span class="input_boxes_label">Minutes</span>
+          <input
+            type="number"
+            placeholder="00"
+            maxlength="2"
+            class="input__value minutes_box"
+          />
+        </div>
+        <div class="input_boxes">
+          <span class="input_boxes_label">Seconds</span>
+          <input
+            type="number"
+            placeholder="00"
+            maxlength="2"
+            class="input__value sec_box"
+          />
+        </div>
+      </div>
+      <div class="countdown_btns">
+        <button class="start_btn">Start</button>
+        <button class="stop_btn">Stop</button>
+        <button class="reset_btn">Reset</button>
+      </div>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

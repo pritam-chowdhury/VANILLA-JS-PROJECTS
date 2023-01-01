@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .header {
+    font-size: 40px;
+  }
+  .countdown__inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .input_boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .start_btn {
+    background-color: green;
+    width: 40%;
+    color: white;
+  }
+  .stop_btn {
+    display: none;
+    background-color: orange;
+    color: white;
+  }
+  
+  .reset_btn {
+    background-color: red;
+  }
+  input {
+    border: none;
+  }
+  
+  ::-webkit-validation-bubble-arrow-clipper {
+    display: none;
+  }
+  
